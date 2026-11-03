@@ -1,32 +1,33 @@
 class Solution {
-    public boolean bfs(int src, int[] color, int[][] graph){
+    static boolean ans; // global variable
+    private void bfs(int i, int[] visited, int[][] adj){
+        visited[i] = 0; // 0 -> blue and 1 -> red
         Queue<Integer> q = new LinkedList<>();
-        q.add(src);
-        color[src] = 1;
+        q.add(i);
         while(!q.isEmpty()){
             int front = q.poll();
-            int col = color[front];
-            for(int j : graph[front]){
-                if(color[j] == 0){
-                    q.add(j);
-                    color[j] = 3-col;
+            int color = visited[front];
+            for(int ele : adj[front]){
+                if(visited[ele] == visited[front]){
+                    ans = false;
+                    return;
                 }
-                else if(color[j] == col) return false;
+                if(visited[ele] == -1){
+                    visited[ele] = 1 - color;
+                    q.add(ele);
+                }
             }
         }
-        return true;
-
     }
     public boolean isBipartite(int[][] graph) {
-        int[] color = new int[graph.length];
-        // 1 -> green color
-        // 2 -> red color
-        // 0 -> no color/ unvisited
-        for(int i = 0; i < graph.length; i++){
-            if(color[i] == 0){
-                if(!bfs(i, color, graph)) return false;
-            }
+        ans = true;
+        int n = graph.length;
+        int[] visited = new int[n];
+        Arrays.fill(visited, -1); // fill arrays with -1 means starting with no color
+        for(int i = 0; i < n; i++){
+            if(ans == false) return false;
+            if(visited[i] == -1) bfs(i, visited, graph);
         }
-        return true;
+        return ans;
     }
 }
