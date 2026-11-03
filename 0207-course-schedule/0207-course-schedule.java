@@ -3,7 +3,6 @@ class Solution {
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();  // adj list
         for(int i = 0; i < n; i++) adj.add(new ArrayList<>());
         int[] indegree = new int[n];
-        boolean[] visited = new boolean[n];
         for(int i = 0; i < pre.length; i++){
             int a = pre[i][0], b = pre[i][1]; // b->a edge hai
             adj.get(b).add(a); // bth index pe add ko add kar do
@@ -14,7 +13,6 @@ class Solution {
         for(int i = 0; i < n; i++){
             if(indegree[i] == 0){
                 q.add(i);
-                visited[i] = true;
             }
         }
         int count = 0;
@@ -25,7 +23,6 @@ class Solution {
                 indegree[ele]--;
                 if(indegree[ele] == 0){
                     q.add(ele);
-                    visited[ele] = true;
                 }
             }
         }
