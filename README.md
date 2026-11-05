@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1046-last-stone-weight) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1572-matrix-diagonal-sum) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [3875-construct-uniform-parity-array-i](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/3875-construct-uniform-parity-array-i) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 ## Divide and Conquer
 |  |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0658-find-k-closest-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1046-last-stone-weight) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 ## Merge Sort
 |  |
 | ------- |
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0867-transpose-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1572-matrix-diagonal-sum) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 ## Simulation
 |  |
 | ------- |
@@ -292,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0841-keys-and-rooms) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -340,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0841-keys-and-rooms) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 ## DP on Trees
 |  |
 | ------- |
@@ -403,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0785-is-graph-bipartite) |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
@@ -438,4 +445,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/0802-find-eventual-safe-states) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/khsiwan510-sudo/DSA-Problems/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
